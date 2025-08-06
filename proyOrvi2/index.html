@@ -6,16 +6,11 @@
     <title>Tu Negocio - Soluciones Profesionales</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Efectos personalizados */
         .hero-image { 
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/19412499-f61a-4ab1-9694-89433aa2c5cb.png');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/fondo.jpg');
             background-size: cover;
             background-position: center;
             height: 80vh;
-        }
-        .card-hover:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -25,7 +20,10 @@
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center py-3">
                 <div class="flex items-center space-x-4">
-                    <span class="text-2xl font-bold text-blue-600">Cartoneria Orvi</span>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-2xl font-bold text-blue-600">Cartoneria Orvi</span>
+                        <img src="img/logo.png" alt="Logo" class="h-10">
+                    </div>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#inicio" class="text-gray-700 hover:text-blue-600">Inicio</a>
@@ -68,7 +66,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Servicio 1 -->
             <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 card-hover">
-                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bacc4626-2ba1-46aa-b4eb-b7c958aa554f.png" alt="Equipo de marketing digital analizando datos en pantallas" class="w-full h-48 object-cover">
+                <img src="img/imagen1.jpg" alt="Venta de cartón" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Venta de Carton</h3>
                     <p class="text-gray-600 mb-4">Carton gris compacto ecologico al por mayor y menor, a granel y refilado.</p>
@@ -78,7 +76,7 @@
             
             <!-- Servicio 2 -->
             <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 card-hover">
-                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0fc25937-fc55-43e7-9f67-8bcb3c7881a8.png" alt="Diseñador web trabajando en un sitio moderno con múltiples pantallas" class="w-full h-48 object-cover">
+                <img src="img/imagen2.jpg" alt="Servicio de corte y troquelado" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Servicio de corte y troquelados</h3>
                     <p class="text-gray-600 mb-4">Ofrecemos servicio de corte y troquelado de materiales con precisión y acabados profesionales, ideal para la producción de piezas personalizadas, empaques, etiquetas y otros productos que requieren formas específicas.</p>
@@ -88,7 +86,7 @@
             
             <!-- Servicio 3 -->
             <div class="bg-white rounded-lg shadow-md overflow-hidden transition duration-300 card-hover">
-                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f64e7f14-62a3-4fc3-8b0b-ca61f2b7526d.png" alt="Analista de datos mostrando gráficos de crecimiento empresarial" class="w-full h-48 object-cover">
+                <img src="img/imagen3.jpg" alt="Bases de cartón para tortas" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Bases de carton para tortas</h3>
                     <p class="text-gray-600 mb-4">De formas circular, blondas, rectangular, en color blanco, dorado, plateado y personalizado.</p>
@@ -206,3 +204,4 @@
     </script>
 </body>
 </html>
+
